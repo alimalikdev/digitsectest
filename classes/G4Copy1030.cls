@@ -4,3 +4,4 @@ public with sharing class G4Copy1030 {
         return Database.query(q);
     }
 }
+// d
