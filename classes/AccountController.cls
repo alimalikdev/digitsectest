@@ -9,4 +9,4 @@ public with sharing class AccountController {
     public static Account getSingleAccount() {
         return [SELECT Id, Name, Phone, Type FROM Account LIMIT 1];
     }
-}
+}// g12
