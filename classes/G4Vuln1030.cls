@@ -12,3 +12,4 @@ public with sharing class G4Vuln1030 {
         return Database.query(q3);
     }
 }
+// v2
