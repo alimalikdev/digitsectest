@@ -9,4 +9,4 @@ public with sharing class AccountController {
     public static Account getSingleAccount() {
         return [SELECT Id, Name, Phone, Type FROM Account LIMIT 1];
     }
-}
+}// ui-9324 legacy PAT test 1793970890
